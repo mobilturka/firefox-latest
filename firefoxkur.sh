@@ -7,7 +7,7 @@ cat >> $HOME/.local/share/applications/Firefox.desktop << EOF
 [Desktop Entry]
 Version=1.0
 Name=Firefox
-Name[tr]=Firefox Web Tarayıcısı
+Name[tr]=Firefox
 Comment=Browse the World Wide Web
 Comment[tr]=İnternet'te Gezinin
 GenericName=Web Browser
