@@ -7,4 +7,5 @@ Root olmanıza gerek yoktur. İndirdiğiniz dizinde terminal açıp "./firefoxku
 
 # Kaldırmak için:
 /home/kullanıcı/.local/firefox dizinini sil
+
 /home/kullanıcı/.local/share/applications/Firefox.desktop dosyasını sil
