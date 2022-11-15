@@ -1,7 +1,12 @@
 #!/bin/bash
 ## Root olmanız gerekmez ./firefox.sh komutunu çalıştırmanız yeterlidir.
 
+#Firefox stable için:
 wget -O /tmp/firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=tr"
+
+#Firefox beta için:
+#wget -O /tmp/firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-beta-latest-ssl&os=linux64&lang=tr"
+
 mkdir ~/.local/share/applications
 cat >> $HOME/.local/share/applications/Firefox.desktop << EOF
 [Desktop Entry]
