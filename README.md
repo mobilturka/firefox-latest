@@ -6,6 +6,4 @@ Bu scprit Debian tabanlı sistemler için son sürüm Firefox Türkçe web taray
 Root olmanıza gerek yoktur. İndirdiğiniz dizinde terminal açıp "./firefoxkur.sh" komutunu çalıştırınız.
 
 # Kaldırmak için:
-/home/kullanıcı/.local/firefox dizinini sil
-
-/home/kullanıcı/.local/share/applications/Firefox.desktop dosyasını sil
+rm -rf $HOME/.local/firefox && rm $HOME/.local/share/applications/Firefox.desktop
