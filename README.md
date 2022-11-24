@@ -1,9 +1,10 @@
 # firefoxkur
 Firefox latest installer for Debian
 
-Bu scprit Debian tabanlı sistemler için son sürüm Firefox Türkçe web tarayıcı kurulumunu yapar.
+Bu scprit Debian yada Debian tabanlı işletim sistemleri için en son sürüm Firefox Türkçe web tarayıcı kurulumunu yapar.
 
-Root olmanıza gerek yoktur. İndirdiğiniz dizinde terminal açıp "./firefoxkur.sh" komutunu çalıştırınız.
+# İndirdiğiniz dizinde terminal açıp aşağıdaki komutu girmeniz yeterli. 
+chmod +x firefox.sh && ./firefoxkur.sh
 
 # Kaldırmak için:
 rm -rf $HOME/.local/firefox && rm $HOME/.local/share/applications/Firefox.desktop
