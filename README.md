@@ -9,4 +9,6 @@ chmod +x firefox.sh && ./firefoxkur.sh
 ```
 
 # Kaldırmak için:
+```
 rm -rf $HOME/.local/firefox && rm $HOME/.local/share/applications/Firefox.desktop
+```
