@@ -13,3 +13,7 @@ chmod +x firefoxkur.sh && ./firefoxkur.sh
 ```
 rm -rf $HOME/.local/firefox && rm $HOME/.local/share/applications/Firefox.desktop
 ```
+Önemli: libdbus-glib-1-2 paketi kurulu değilse kurmanız lazım.
+```
+sudo apt install libdbus-glib-1-2
+```
