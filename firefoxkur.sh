@@ -42,5 +42,5 @@ Exec=$HOME/.local/firefox/firefox -private-window
 OnlyShowIn=Unity;
 EOF
 tar -xvf /tmp/firefox.tar.bz2 -C ~/.local
-apt install libdbus-glib-1-2
-ln -s $HOME/.local/firefox/firefox /usr/bin/firefox
+sudo apt install libdbus-glib-1-2
+sudo ln -s $HOME/.local/firefox/firefox /usr/bin/firefox
