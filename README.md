@@ -11,8 +11,7 @@ sudo apt install libdbus-glib-1-2
 # Firefox sisteme kurulum için: 
 İndirdiğiniz dizinde terminal açıp aşağıdaki komutu girmeniz yeterli. 
 ```
-chmod +x firefoxkur.sh && ./firefoxkur.sh
-sudo ln -s $HOME/.local/firefox/firefox /usr/bin/firefox
+chmod +x firefoxkur.sh && sudo ./firefoxkur.sh
 ```
 
 # Firefox sistemden kaldırmak için:
