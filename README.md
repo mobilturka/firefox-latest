@@ -11,5 +11,5 @@ chmod +x firefoxkur.sh && sudo ./firefoxkur.sh
 
 # Firefox sistemden kaldırmak için:
 ```
-sudo rm /usr/bin/firefox & rm -rf $HOME/.local/firefox && rm $HOME/.local/share/applications/Firefox.desktop
+sudo rm /usr/bin/firefox && rm -rf $HOME/.local/firefox && rm $HOME/.local/share/applications/Firefox.desktop
 ```
