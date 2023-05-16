@@ -6,6 +6,7 @@ Bu scprit Debian yada Debian tabanlı işletim sistemleri için en son sürüm F
 # Firefox sisteme kurulum için: 
 İndirdiğiniz dizinde terminal açıp aşağıdaki komutu girmeniz yeterli. 
 ```
+wget https://raw.githubusercontent.com/mobilturka/firefoxkur/main/firefoxkur.sh
 chmod +x firefoxkur.sh && ./firefoxkur.sh
 ```
 
