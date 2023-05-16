@@ -1,5 +1,4 @@
 #!/bin/bash
-## Root olmanız gerekmez ./firefox.sh komutunu çalıştırmanız yeterlidir.
 
 #Firefox Linux amd64 TR stable için:
 wget -O /tmp/firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=tr"
