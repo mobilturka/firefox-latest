@@ -31,13 +31,13 @@ Actions=NewWindow;NewPrivateWindow;
 [Desktop Action NewWindow]
 Name=Open a New Window
 Name[tr]=Yeni pencere aç 
-Exec=$HOME/.local/firefox/firefox -new-window
+Exec=firefox -new-window
 OnlyShowIn=Unity;
 
 [Desktop Action NewPrivateWindow]
 Name=Open a New Private Window
 Name[tr]=Yeni gizli pencere aç
-Exec=$HOME/.local/firefox/firefox -private-window
+Exec=firefox -private-window
 OnlyShowIn=Unity;
 EOF
 tar -xvf /tmp/firefox.tar.bz2 -C ~/.local
