@@ -5,7 +5,7 @@ Bu scprit Debian yada Debian tabanlı işletim sistemleri için en son sürüm F
 
 # Firefox sisteme kurulum için: 
 ```
-wget https://raw.githubusercontent.com/mobilturka/firefoxkur/main/firefoxkur.sh
+wget https://raw.githubusercontent.com/mobilturka/firefox-latest/main/firefox-tr.sh
 chmod +x firefoxkur.sh && ./firefoxkur.sh
 ```
 
