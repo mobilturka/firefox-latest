@@ -1,5 +1,5 @@
-# firefoxkur
-Firefox latest installer for Debian
+# firefox-tr
+Firefox TR latest installer for Debian
 
 Bu scprit Debian yada Debian tabanlı işletim sistemleri için en son sürüm Firefox Türkçe web tarayıcı kurulumunu yapar.
 
