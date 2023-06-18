@@ -5,6 +5,7 @@
 
 #Firefox Linux amd64 TR Beta için kodu aktif ediniz!!!:
 wget -O /tmp/firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-beta-latest-ssl&os=linux64&lang=tr"
+
 mkdir ~/.local/share/applications
 cat >> $HOME/.local/share/applications/Firefox.desktop << EOF
 [Desktop Entry]
@@ -40,5 +41,6 @@ Exec=firefox -private-window
 OnlyShowIn=Unity;
 EOF
 tar -xvf /tmp/firefox.tar.bz2 -C ~/.local
+
 sudo apt install libdbus-glib-1-2
 sudo ln -s $HOME/.local/firefox/firefox /usr/bin/firefox
