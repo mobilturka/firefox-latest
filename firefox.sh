@@ -23,7 +23,7 @@ Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
 StartupNotify=true
 EOF
-tar -xjf /tmp/firefox.tar.bz2 -C ~/.local
+tar -xvf /tmp/firefox.tar.bz2 -C ~/.local
 
 sudo apt install libdbus-glib-1-2
 sudo ln -s $HOME/.local/firefox/firefox /usr/bin/firefox
